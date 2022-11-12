@@ -1,0 +1,44 @@
+#title{
+    text-align: center;
+    margin-top: 10px;
+}
+
+h1 > span{
+    color: black;
+    background-color: #ffc107;
+    border-radius: 5px;
+    padding: 0px 5px 0px 5px;
+}
+
+h1, h3, h5, #save, input, textarea {
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.card-header {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: larger;
+}
+
+p {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: larger;
+}
+
+p > strong {
+    color: #dc3545;
+}
+
+#body{
+    margin: 10px 0px 10px 0px;
+}
+
+#date-align{
+    text-align: end;
+    font-size: medium;
+}
+
+.card-title > span{
+    /* margin-left: 48%; */
+    display: flex;
+    justify-content: flex-end;
+}
